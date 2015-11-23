@@ -1,0 +1,10 @@
+<configuration>
+    <appender name="FLUENT" class="com.github.dreambrother.fluent.FluentAppender">
+        <tag>com.github.dreambrother</tag>
+        <port>8080</port>
+        <host>localhost</host>
+    </appender>
+    <root level="info">
+        <appender-ref ref="FLUENT" />
+    </root>
+</configuration>
